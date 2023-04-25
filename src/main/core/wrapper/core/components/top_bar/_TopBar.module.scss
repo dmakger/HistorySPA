@@ -1,0 +1,17 @@
+@import "../../../../../../core/scss/vars";
+
+.topBar {
+  display: flex;
+  background-color: $black;
+  padding: 21px 0;
+  justify-content: center;
+  transition: all .15s;
+
+  &:hover {
+    background-color: $white;
+
+    .title {
+      color: $black !important;
+    }
+  }
+}

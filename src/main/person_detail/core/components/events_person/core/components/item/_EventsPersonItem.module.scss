@@ -1,0 +1,37 @@
+@import "../../../../../../../../core/scss/vars";
+
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .15s;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: $black-light-2;
+
+
+  &:hover {
+    background-color: $white;
+
+    .title {
+      color: $black;
+    }
+  }
+
+  .image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: auto;
+  }
+
+  .title {
+    margin-top: 20px;
+    text-align: center;
+    transition: all .15s;
+    max-width: 300px;
+    margin-bottom: auto;
+  }
+}

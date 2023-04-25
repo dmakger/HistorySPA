@@ -1,0 +1,7 @@
+@import "mixins/font-face";
+
+@include font('Gotham-Ultra', '../static/font/Gotham/Gotham-Ultra.ttf');
+@include font('Gotham-Bold', '../static/font/Gotham/Gotham-Bold.ttf');
+@include font('Gotham-BoldI', '../static/font/Gotham/Gotham-BoldItalic.ttf');
+@include font('Gotham-Book', '../static/font/Gotham/Gotham-Book.ttf');
+@include font('Gotham-BookI', '../static/font/Gotham/Gotham-BookItalic.ttf');

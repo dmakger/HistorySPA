@@ -1,0 +1,38 @@
+@import "../../../../../core/scss/vars";
+
+.text {
+  max-width: 900px;
+  margin-bottom: 300px;
+
+  p {
+    font-family: $f-book;
+    font-size: $fs-24;
+    text-align: left;
+  }
+  h2 {
+    margin-top: 30px;
+    font-family: $f-book;
+    font-size: $fs-40;
+  }
+  h2 + p {
+    margin-top: 10px;
+  }
+  h2 + p img {
+    margin-top: 20px;
+  }
+
+  p + p {
+    margin-top: 15px;
+  }
+
+  p + p img {
+    margin-top: 30px;
+  }
+
+  img {
+    margin-top: 30px;
+    width: 1000px;
+    margin-left: -50px;
+    border-radius: 20px;
+  }
+}

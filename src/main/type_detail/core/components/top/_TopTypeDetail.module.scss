@@ -1,0 +1,41 @@
+@import "../../../../../core/scss/_vars.scss";
+
+.type {
+  height: 300px;
+  width: 100%;
+  position: relative;
+
+  .background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &Wallpaper {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &Dark {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background-color: $black_40;
+    }
+  }
+
+  .content {
+    display: flex;
+    height: 100%;
+    .title {
+      display: flex;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+.list {
+  display: flex;
+  margin-top: 40px;
+
+  .event:nth-child(n+2) {
+    margin-left: 20px;
+  }
+}
+

@@ -1,0 +1,15 @@
+@import "../../../../scss/vars";
+
+.button {
+  background-color: $red-1;
+  border: 3px solid $red-1;
+  transition: all .15s linear;
+
+  .title {
+    transition: all .15s linear;
+  }
+
+  &:hover {
+    background-color: $red-black;
+  }
+}
